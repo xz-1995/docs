@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+    base: '/docs/',
   title: "薛壮的前端纪录",
   description: "A VitePress Site",
   themeConfig: {
